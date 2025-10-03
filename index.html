@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Location Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-wrapper">
+    
+    
+    
+
+    <!-- Main Dashboard Section -->
+    <div class="container">
+      <h1>Weather Dashboard</h1>
+
+      <div class="input-group">
+        <input id="cityInput" type="text" placeholder="Enter city name" autocomplete="off" />
+        <button id="searchBtn" class="btn">Search by City</button>
+      </div>
+      <!--autocomplete: Prevents the browser from showing previous typed values.  -->
+
+      <div class="input-group">
+        <button id="geoBtn" class="btn btn-geo">Use My Location</button>
+      </div>
+
+      <div id="message"></div>
+      <div id="weatherDisplay" class="weather-card"></div>
+    </div>
+     <section class="about-section">
+      <div class="about-container">
+        <h2>About This Website</h2>
+        <p>
+          This Weather Dashboard allows you to check the current weather by entering a city name or using your device's location. It provides temperature, conditions, and a forecast using real-time weather data.It uses Tomorrow.io API and OpenCage API </p>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
