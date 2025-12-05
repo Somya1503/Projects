@@ -1,0 +1,52 @@
+  body {
+     font-family: system-ui, sans-serif;
+      padding: 24px; 
+      background:#5F4B66 ; 
+      color:black; 
+        font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 120;
+  font-style: normal;
+  
+    }
+
+    input {
+        padding: 8px; 
+        width: 250px; 
+        border-radius: 6px; 
+        border: 1px solid #475569; 
+    }
+
+    button {
+        padding: 8px 12px; 
+        margin-left: 8px; 
+        border: none;
+        border-radius: 6px;
+        cursor: pointer; 
+        background:#38bdf8; 
+        color:#062025; 
+    }
+
+    ul {
+        margin-top: 20px;
+        padding-left: 0; 
+        list-style: none; 
+    }
+    li {
+        background:#A7ADC6  ;
+        padding:10px; 
+        border-radius:6px;
+        margin-bottom:10px;
+        display:flex; 
+        justify-content: space-between;
+        align-items:center;
+    }
+    .del-btn {
+        background:#f87171;
+        color:#300; 
+        padding:6px 10px; 
+        border:none; 
+        border-radius:6px; 
+        cursor:pointer; 
+    }
+ 
